@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "The Future of Electric Cars",
+      "image": "https://example.com/images/electric-cars.jpg",
+      "date": "2025-07-15",
+      "author": "Jane Smith",
+      "category": "Technology"
+    },
+    {
+      "id": 2,
+      "name": "Top 10 Road Trip Destinations",
+      "image": "https://example.com/images/road-trip.jpg",
+      "date": "2025-06-30",
+      "author": "John Doe",
+      "category": "Travel"
+    },
+    {
+      "id": 3,
+      "name": "How to Maintain Your Car",
+      "image": "https://example.com/images/car-maintenance.jpg",
+      "date": "2025-07-05",
+      "author": "Sarah Johnson",
+      "category": "Tips"
+    },
+    {
+      "id": 4,
+      "name": "Luxury Cars to Rent in 2025",
+      "image": "https://example.com/images/luxury-cars.jpg",
+      "date": "2025-07-10",
+      "author": "Michael Lee",
+      "category": "Luxury"
+    },
+    {
+      "id": 5,
+      "name": "Best Family Cars for Long Trips",
+      "image": "https://example.com/images/family-cars.jpg",
+      "date": "2025-07-12",
+      "author": "Emily Davis",
+      "category": "Family"
+    }
+  ]
+  

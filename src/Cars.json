@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "Toyota Corolla",
+      "image": "https://images.unsplash.com/photo-1619682817481-e994891cd1f5?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG95b3RhJTIwY29yb2xsYXxlbnwwfHwwfHx8MA%3D%3D",
+      "door": 4,
+      "passengers": 5,
+      "transmission": "Automatic",
+      "baggage": 2,
+      "price": 45
+    },
+    {
+      "id": 2,
+      "name": "Honda Civic",
+      "image": "https://images.unsplash.com/photo-1605816988069-b11383b50717?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbmRhJTIwY2l2aWN8ZW58MHx8MHx8fDA%3D",
+      "door": 4,
+      "passengers": 5,
+      "transmission": "Manual",
+      "baggage": 2,
+      "price": 40
+    },
+    {
+      "id": 3,
+      "name": "Ford Mustang",
+      "image": "https://www.topgear.com/sites/default/files/cars-car/image/2024/12/54196859052_9249719e93_o.jpg",
+      "door": 2,
+      "passengers": 4,
+      "transmission": "Automatic",
+      "baggage": 1,
+      "price": 80
+    },
+    {
+      "id": 4,
+      "name": "BMW X5",
+      "image": "https://images.unsplash.com/photo-1635990215241-4d2805d729bb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "door": 4,
+      "passengers": 5,
+      "transmission": "Automatic",
+      "baggage": 3,
+      "price": 120
+    },
+    {
+      "id": 5,
+      "name": "Mercedes-Benz C-Class",
+      "image": "https://images.unsplash.com/photo-1686562483617-3cf08d81e117?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "door": 4,
+      "passengers": 5,
+      "transmission": "Automatic",
+      "baggage": 2,
+      "price": 100
+    },
+    {
+      "id": 6,
+      "name": "Jeep Wrangler",
+      "image": "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?q=80&w=959&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "door": 4,
+      "passengers": 5,
+      "transmission": "Manual",
+      "baggage": 2,
+      "price": 90
+    }
+  ]
+  
