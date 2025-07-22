@@ -141,7 +141,7 @@ function CarsDetails() {
         </div>
 
         {showModal && (
-            <div className='fixed inset-0 z-[50] flex items-center justify-center bg-black/50 backdrop-blur-sm px-4'>
+            <div className='fixed inset-0 z-[999999] flex items-center justify-center bg-black/50 backdrop-blur-sm px-4'>
                 <div className='bg-[#0d0d0d]/90 border border-[#f5b754]/30 rounded-2xl shadow-2xl max-w-4xl w-full overflow-hidden'>
                     <div className='bg-[#f5b754] px-6 py-4 flex items-center justify-between'>
                         <h2 className='text-xl font-bold text-black font-bricolage'> Book Your Dream Car</h2>

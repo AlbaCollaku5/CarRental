@@ -448,7 +448,568 @@ function Index() {
       </Swiper>
 
     </div>
+
+
+
+    {/* Car Type */}
+    <div className='car-type lg:px-[12%] px-[8%] py-[150px] section-effect'>
+      <div className='text-center'>
+        <p className='uppercase text-sm tracking-widest text-[#f5b754] mb-2'> Select Your Car </p>
+        <h2 className='text-4xl md:text-5xl text-white font-bold mb-3 font-bricolage'>
+          Luxury <span className='text-[#f5b754] font-bricolage'>Car Fleet</span>
+        </h2>
+      </div>
+
+      <Swiper
+        modules={[Autoplay, Pagination]}
+        loop = {true}
+        spaceBetween={20}
+        autoplay = { {
+            delay : 3000,
+        }}
+        pagination={true}
+        breakpoints={{
+          768: {
+            slidesPerView: 2, 
+          },
+          1024:{
+            slidesPerView: 3, 
+          }
+        }} 
+        className='mt-[70px]'
+        >
+
+          <SwiperSlide>
+            <div className="car-type relative rounded-2xl overflow-hidden group shadow-md cursor-pointer">
+              <img src={carType1} alt="" className='w-full h-27 object-cover z-[5]' />
+              <h3 className='absolute top-4 left-4 text-white text-2xl font-semibold drop-shadow-md z-[5]'>SUVs</h3>
+              <div className="absolute z-[5]">
+                 <div className="curv">
+                    <div className="section-item-curv car-type-curv">
+                       <i className="bi bi-arrow-right"></i>
+                    </div> 
+                 </div> 
+              </div>              
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="car-type relative rounded-2xl overflow-hidden group shadow-md cursor-pointer">
+              <img src={carType2} alt="" className='w-full h-27 object-cover z-[5]' />
+              <h3 className='absolute top-4 left-4 text-white text-2xl font-semibold drop-shadow-md z-[5]'>Convertible</h3>
+              <div className="absolute z-[5]">
+                 <div className="curv">
+                    <div className="section-item-curv car-type-curv">
+                       <i className="bi bi-arrow-right"></i>
+                    </div> 
+                 </div> 
+              </div>              
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="car-type relative rounded-2xl overflow-hidden group shadow-md cursor-pointer">
+              <img src={carType3} alt="" className='w-full h-27 object-cover z-[5]' />
+              <h3 className='absolute top-4 left-4 text-white text-2xl font-semibold drop-shadow-md z-[5]'>Sports Car</h3>
+              <div className="absolute z-[5]">
+                 <div className="curv">
+                    <div className="section-item-curv car-type-curv">
+                       <i className="bi bi-arrow-right"></i>
+                    </div> 
+                 </div> 
+              </div>              
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="car-type relative rounded-2xl overflow-hidden group shadow-md cursor-pointer">
+              <img src={carType4} alt="" className='w-full h-27 object-cover z-[5]' />
+              <h3 className='absolute top-4 left-4 text-white text-2xl font-semibold drop-shadow-md z-[5]'>Luxury Cars</h3>
+              <div className="absolute z-[5]">
+                 <div className="curv">
+                    <div className="section-item-curv car-type-curv">
+                       <i className="bi bi-arrow-right"></i>
+                    </div> 
+                 </div> 
+              </div>              
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="car-type relative rounded-2xl overflow-hidden group shadow-md cursor-pointer">
+              <img src={carType5} alt="" className='w-full h-27 object-cover z-[5]' />
+              <h3 className='absolute top-4 left-4 text-white text-2xl font-semibold drop-shadow-md z-[5]'>Sedon</h3>
+              <div className="absolute z-[5]">
+                 <div className="curv">
+                    <div className="section-item-curv car-type-curv">
+                       <i className="bi bi-arrow-right"></i>
+                    </div> 
+                 </div> 
+              </div>              
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="car-type relative rounded-2xl overflow-hidden group shadow-md cursor-pointer">
+              <img src={carType6} alt="" className='w-full h-27 object-cover z-[5]' />
+              <h3 className='absolute top-4 left-4 text-white text-2xl font-semibold drop-shadow-md z-[5]'>Small Cars</h3>
+              <div className="absolute z-[5]">
+                 <div className="curv">
+                    <div className="section-item-curv car-type-curv">
+                       <i className="bi bi-arrow-right"></i>
+                    </div> 
+                 </div> 
+              </div>              
+            </div>
+          </SwiperSlide>
+      </Swiper>
+    </div>
+
+
+    {/* Service */}
+    <div className="our-service lg:px-[12%] px-[8%] py-[2%] sectopm-effect ">
+      <div className="our-severice-content mb-20 text-center text-white">
+        <p className='uppercase text-sm tracking-[5px] text-[#f5b754] mb-2'>What We Do</p>
+        <h2 className='text-4xl md:text-5xl font-bold mb-3 font-bricolage'>
+          Other Services
+        </h2>
+      </div>
+
+      <div className='our-service-wrapper'>
+          <div className="grid w-full gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div className="service-item relative text-white rounded-[30px] bg-[#222222] w-full">
+              <h5 className='font-semibold text-2xl mb-3 fonnt-bricolage'> Daily Car Rental</h5>
+              <p className='text-[#999] text-md'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex a quasi delectus, necessitatibus nobis architecto.
+              </p>
+              <div className="curv">
+                <div className="service-item-curv section-item-curv">
+                  1.
+                </div>
+              </div>
+            </div>
+
+            <div className="service-item relative text-white rounded-[30px] bg-[#222222] w-full">
+              <h5 className='font-semibold text-2xl mb-3 fonnt-bricolage'>Annual Car Rental</h5>
+              <p className='text-[#999] text-md'>
+                Ex a quasi delectus, necessitatibus nobis, eos corporis blanditiis molestias minus nostrum, totam voluptates officiis possimus nihil.
+              </p>
+              <div className="curv">
+                <div className="service-item-curv section-item-curv">
+                  2.
+                </div>
+              </div>
+            </div>
+
+            <div className="service-item relative text-white rounded-[30px] bg-[#222222] w-full">
+              <h5 className='font-semibold text-2xl mb-3 fonnt-bricolage'>Annual Car Rental</h5>
+              <p className='text-[#999] text-md'>
+                Ex a quasi delectus, necessitatibus nobis architecto, eos corporis blanditiis molestias minus nostrum, possimus nihil.
+              </p>
+              <div className="curv">
+                <div className="service-item-curv section-item-curv">
+                  3.
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+      </div>
+    </div>
+
+
+    {/* Testimonials */}
+    <div className="testimonials lg:px-[12%] px-[8%] py-[14%] sectopm-effect">
+
+      <div className="our-severice-content mb-20 text-center text-white">
+        <p className='uppercase text-sm tracking-[5px] text-[#f5b754] mb-2'>Testimonials</p>
+        <h2 className='text-4xl md:text-5xl font-bold mb-3 font-bricolage'>
+          What Clients <span className='text-[#f5b754] font-bricolage'>Say</span>
+        </h2>
+      </div>
+
+        <Swiper
+          modules={[Autoplay, Pagination]}
+          spaceBetween={30}
+          pagination={{clickable: true}}
+          loop= {true}
+          autoplay={{
+            delay:3000,
+          }}
+          breakpoints={{
+            640: {
+              slidesPerView: 1, 
+            },
+            1024: {
+              slidesPerView: 2, 
+            },
+            1400: {
+              slidesPerView: 3, 
+            }
+          }}
+
+        >
+          <SwiperSlide>
+            <div className="rounded-[30px] bg-[#222] text-left p-8 shadow-md h-full flex flex-col justify-between">
+              <div className="flex justify-between items-center mb-6">
+                <span className='text-7xl text-[#f4a950] mr-4'> ❝ </span>
+
+                  {/* Stars */}
+
+                  <div className="flex text-[#f4a950] space-x-1">
+                    {Array(5).fill().map((_,i) => (
+                      <span key={i} className='[#f4a950]'>★</span>
+                    ))}
+                  </div>
+              </div>
+
+              <div className="text-[#ccc] text-sm mb-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Neque explicabo maiores consequuntur et earum in laudantium tempora illum non reiciendis facere 
+                 doloribus necessitatibus provident, enim sapiente ipsa doloremque dignissimos velit.
+              </div>
+
+              <div className='flex items-center mt-6'>
+                <div className="curv">
+                  <div className="section-item-curv test-curv">
+                    <img src={test1} alt="" className='rounded-full' />
+                  </div>
+                </div>
+
+                <div className="ps-[100px]">
+                    <div className="font-semibold font-bricolage text-[#f5b754]">  Olivia Brown  </div>
+                    <p className='text-[#999] text-sm'>Customer</p>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+
+
+          <SwiperSlide>
+            <div className="rounded-[30px] bg-[#222] text-left p-8 shadow-md h-full flex flex-col justify-between">
+              <div className="flex justify-between items-center mb-6">
+                <span className='text-7xl text-[#f4a950] mr-4'> ❝ </span>
+
+                  {/* Stars */}
+
+                  <div className="flex text-[#f4a950] space-x-1">
+                    {Array(5).fill().map((_,i) => (
+                      <span key={i} className='[#f4a950]'>★</span>
+                    ))}
+                  </div>
+              </div>
+
+              <div className="text-[#ccc] text-sm mb-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Neque explicabo maiores consequuntur et earum in laudantium tempora illum non reiciendis facere 
+                 doloribus necessitatibus provident, enim sapiente ipsa doloremque dignissimos velit.
+              </div>
+
+              <div className='flex items-center mt-6'>
+                <div className="curv">
+                  <div className="section-item-curv test-curv">
+                    <img src={test2} alt="" className='rounded-full' />
+                  </div>
+                </div>
+
+                <div className="ps-[100px]">
+                    <div className="font-semibold font-bricolage text-[#f5b754]">  Dan Artin  </div>
+                    <p className='text-[#999] text-sm'>Customer</p>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+
+
+          <SwiperSlide>
+            <div className="rounded-[30px] bg-[#222] text-left p-8 shadow-md h-full flex flex-col justify-between">
+              <div className="flex justify-between items-center mb-6">
+                <span className='text-7xl text-[#f4a950] mr-4'> ❝ </span>
+
+                  {/* Stars */}
+
+                  <div className="flex text-[#f4a950] space-x-1">
+                    {Array(5).fill().map((_,i) => (
+                      <span key={i} className='[#f4a950]'>★</span>
+                    ))}
+                  </div>
+              </div>
+
+              <div className="text-[#ccc] text-sm mb-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Neque explicabo maiores consequuntur et earum in laudantium tempora illum non reiciendis facere 
+                 doloribus necessitatibus provident, enim sapiente ipsa doloremque dignissimos velit.
+              </div>
+
+              <div className='flex items-center mt-6'>
+                <div className="curv">
+                  <div className="section-item-curv test-curv">
+                    <img src={test3} alt="" className='rounded-full' />
+                  </div>
+                </div>
+
+                <div className="ps-[100px]">
+                    <div className="font-semibold font-bricolage text-[#f5b754]"> Emily Martin  </div>
+                    <p className='text-[#999] text-sm'>Customer</p>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="rounded-[30px] bg-[#222] text-left p-8 shadow-md h-full flex flex-col justify-between">
+              <div className="flex justify-between items-center mb-6">
+                <span className='text-7xl text-[#f4a950] mr-4'> ❝ </span>
+
+                  {/* Stars */}
+
+                  <div className="flex text-[#f4a950] space-x-1">
+                    {Array(5).fill().map((_,i) => (
+                      <span key={i} className='[#f4a950]'>★</span>
+                    ))}
+                  </div>
+              </div>
+
+              <div className="text-[#ccc] text-sm mb-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Neque explicabo maiores consequuntur et earum in laudantium tempora illum non reiciendis facere 
+                 doloribus necessitatibus provident, enim sapiente ipsa doloremque dignissimos velit.
+              </div>
+
+              <div className='flex items-center mt-6'>
+                <div className="curv">
+                  <div className="section-item-curv test-curv">
+                    <img src={test2} alt="" className='rounded-full' />
+                  </div>
+                </div>
+
+                <div className="ps-[100px]">
+                    <div className="font-semibold font-bricolage text-[#f5b754]">  Dan Artin  </div>
+                    <p className='text-[#999] text-sm'>Customer</p>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+
+
+          <SwiperSlide>
+            <div className="rounded-[30px] bg-[#222] text-left p-8 shadow-md h-full flex flex-col justify-between">
+              <div className="flex justify-between items-center mb-6">
+                <span className='text-7xl text-[#f4a950] mr-4'> ❝ </span>
+
+                  {/* Stars */}
+
+                  <div className="flex text-[#f4a950] space-x-1">
+                    {Array(5).fill().map((_,i) => (
+                      <span key={i} className='[#f4a950]'>★</span>
+                    ))}
+                  </div>
+              </div>
+
+              <div className="text-[#ccc] text-sm mb-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Neque explicabo maiores consequuntur et earum in laudantium tempora illum non reiciendis facere 
+                 doloribus necessitatibus provident, enim sapiente ipsa doloremque dignissimos velit.
+              </div>
+
+              <div className='flex items-center mt-6'>
+                <div className="curv">
+                  <div className="section-item-curv test-curv">
+                    <img src={test3} alt="" className='rounded-full' />
+                  </div>
+                </div>
+
+                <div className="ps-[100px]">
+                    <div className="font-semibold font-bricolage text-[#f5b754]"> Emily Martin  </div>
+                    <p className='text-[#999] text-sm'>Customer</p>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+
+
+        </Swiper>
+
+    </div>
+    
+
+    {/* Blog */}                
+    <div className="blog lg:px-[12%] px-[8%] py-[2%] sectopm-effect">
+      <div className="our-service-content mb-20 text-center text-white">
+      <p className='uppercase text-sm tracking-[5px] text-[#f5b754] mb-2'>Our Blog</p>
+        <h2 className='text-4xl md:text-5xl font-bold mb-3 font-bricolage'>
+          Latest <span className='text-[#f5b754] font-bricolage'>News</span>
+        </h2>
+      </div>
+
+      <Swiper 
+        spaceBetween={30}
+        slidesPerView={1}
+        loop = {true}
+        pagination={{ clickable: true}}
+        breakpoints={{
+          0: {
+            slidesPerView: 2, 
+          },
+          1280:{
+            slidesPerView: 3, 
+          }
+        }} 
+        >
+
+
+        <SwiperSlide>
+          <div className="group rounded-2xl overflow-hidden bg-transparent transition-all duration-300">
+            <img src={newscar1} alt="Rental cost of carss" className='w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105' />
+            <div className="-mt-8 px-5">
+              <div className="relative bg-[#1d1d1d] text-white p-5 rounded-2xl shadow-md z-10 transition-all duration-500 group-hover:-translate-y-3 group-hover:shadow-2xl flex flex-col justify-between">
+                <span className='absolute -top-4 left-5  bg-[#f5b754] text-black text-xs font-semibold px-3 py-1 rounded-md shadow-md'>
+                  May 5,2025
+                </span>
+
+                <div className="text-xs text-[#f4a950] mb-2 mt-2 flex gap-4 items-center">
+                  <span className='flex items-center gap-1'>
+                    <i className='ri-user-line text-sm'></i> Martin C
+                  </span>
+
+                  <span className='flex items-center gap-1'>
+                    <i className='ri-folder-line text-sm'></i> Vehicles
+                  </span>
+                </div>
+
+                <h3 className='text-lg font-semibold text-white leading-snug mb-3'>
+                  <a href="#" className='hover:text-[#f4a950] tranisition-colors duration-300'>
+                    Rental cost for sport and other cars
+                  </a>
+                </h3>
+                <a 
+                  href="#"
+                  className='w-10 h-10 opacity-0 group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 rounded-full border border-[#f4a950] flex items-center justify-center transition-all duration-500 hover:bg-[#f4a950]'>
+                    
+                  <i className="ri-arrow-right-up-line text-[#f5b754] hover:text-[#f5b754] transition duration-300"></i>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="group rounded-2xl overflow-hidden bg-transparent transition-all duration-300">
+            <img src={newscar2} alt="Rental cost of carss" className='w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105' />
+            <div className="-mt-8 px-5">
+              <div className="relative bg-[#1d1d1d] text-white p-5 rounded-2xl shadow-md z-10 transition-all duration-500 group-hover:-translate-y-3 group-hover:shadow-2xl flex flex-col justify-between">
+                <span className='absolute -top-4 left-5  bg-[#f5b754] text-black text-xs font-semibold px-3 py-1 rounded-md shadow-md'>
+                  May 5,2025
+                </span>
+
+                <div className="text-xs text-[#f4a950] mb-2 mt-2 flex gap-4 items-center">
+                  <span className='flex items-center gap-1'>
+                    <i className='ri-user-line text-sm'></i> Martin C
+                  </span>
+
+                  <span className='flex items-center gap-1'>
+                    <i className='ri-folder-line text-sm'></i> Vehicles
+                  </span>
+                </div>
+
+                <h3 className='text-lg font-semibold text-white leading-snug mb-3'>
+                  <a href="#" className='hover:text-[#f4a950] tranisition-colors duration-300'>
+                    Rental cost for sport and other cars
+                  </a>
+                </h3>
+                <a 
+                  href="#"
+                  className='w-10 h-10 opacity-0 group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 rounded-full border border-[#f4a950] flex items-center justify-center transition-all duration-500 hover:bg-[#f4a950]'>
+                    
+                  <i className="ri-arrow-right-up-line text-[#f5b754] hover:text-[#f5b754] transition duration-300"></i>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="group rounded-2xl overflow-hidden bg-transparent transition-all duration-300">
+            <img src={newscar3} alt="Rental cost of carss" className='w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105' />
+            <div className="-mt-8 px-5">
+              <div className="relative bg-[#1d1d1d] text-white p-5 rounded-2xl shadow-md z-10 transition-all duration-500 group-hover:-translate-y-3 group-hover:shadow-2xl flex flex-col justify-between">
+                <span className='absolute -top-4 left-5  bg-[#f5b754] text-black text-xs font-semibold px-3 py-1 rounded-md shadow-md'>
+                  May 5,2025
+                </span>
+
+                <div className="text-xs text-[#f4a950] mb-2 mt-2 flex gap-4 items-center">
+                  <span className='flex items-center gap-1'>
+                    <i className='ri-user-line text-sm'></i> Martin C
+                  </span>
+
+                  <span className='flex items-center gap-1'>
+                    <i className='ri-folder-line text-sm'></i> Vehicles
+                  </span>
+                </div>
+
+                <h3 className='text-lg font-semibold text-white leading-snug mb-3'>
+                  <a href="#" className='hover:text-[#f4a950] tranisition-colors duration-300'>
+                    Rental cost for sport and other cars
+                  </a>
+                </h3>
+                <a 
+                  href="#"
+                  className='w-10 h-10 opacity-0 group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 rounded-full border border-[#f4a950] flex items-center justify-center transition-all duration-500 hover:bg-[#f4a950]'>
+                    
+                  <i className="ri-arrow-right-up-line text-[#f5b754] hover:text-[#f5b754] transition duration-300"></i>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+        </SwiperSlide>
+
+        
+        <SwiperSlide>
+          <div className="group rounded-2xl overflow-hidden bg-transparent transition-all duration-300">
+            <img src={newscar4} alt="Rental cost of carss" className='w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105' />
+            <div className="-mt-8 px-5">
+              <div className="relative bg-[#1d1d1d] text-white p-5 rounded-2xl shadow-md z-10 transition-all duration-500 group-hover:-translate-y-3 group-hover:shadow-2xl flex flex-col justify-between">
+                <span className='absolute -top-4 left-5  bg-[#f5b754] text-black text-xs font-semibold px-3 py-1 rounded-md shadow-md'>
+                  May 5,2025
+                </span>
+
+                <div className="text-xs text-[#f4a950] mb-2 mt-2 flex gap-4 items-center">
+                  <span className='flex items-center gap-1'>
+                    <i className='ri-user-line text-sm'></i> Martin C
+                  </span>
+
+                  <span className='flex items-center gap-1'>
+                    <i className='ri-folder-line text-sm'></i> Vehicles
+                  </span>
+                </div>
+
+                <h3 className='text-lg font-semibold text-white leading-snug mb-3'>
+                  <a href="#" className='hover:text-[#f4a950] tranisition-colors duration-300'>
+                    Rental cost for sport and other cars
+                  </a>
+                </h3>
+                <a 
+                  href="#"
+                  className='w-10 h-10 opacity-0 group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 rounded-full border border-[#f4a950] flex items-center justify-center transition-all duration-500 hover:bg-[#f4a950]'>
+                    
+                  <i className="ri-arrow-right-up-line text-[#f5b754] hover:text-[#f5b754] transition duration-300"></i>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+        </SwiperSlide>
+
+      </Swiper>
+
+
+    </div>
     </>    
+
+    
 
   )
 }
