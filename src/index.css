@@ -486,3 +486,99 @@ div.section-item-curv, .service-item-curv  {
     position: relative;
     z-index: 9;
 }
+
+.footer-menu li a::after{
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--prim-color);
+}
+
+/*About Page Section*/
+
+.banner-section{
+    height: 80vh;
+    width: 100%;
+    background-image: url(../public/images/cars-slide-04.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.about-banner-section{
+    background-image: url(assets/banner-car.jpg) !important;
+}
+
+.banner-section::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--black-color);
+    opacity: .6;
+}
+
+.about-banner-section h6{
+    color: var(--prim-color);
+    font-weight: 400;
+    font-size: .75rem;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+@media  (max-width:500px) {
+    .banner-section{
+        height: 500px;
+    }
+}
+
+.our-team{
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.our-team::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, black, 0%, rgba(0, 0, 0, 0.738) 19%, rgba(0, 0, 0, 0.541) 34%, rgba(0, 0, 0, 0.382) 47%, rgba(0, 0, 0, 0.278) 56.5%, rgba(0, 0, 0, 0.194) 65%, rgba(0, 0, 0, 0.126) 73%, rgba(0, 0, 0, 0.075) 80.2%, rgba(0, 0, 0, 0.042) 86.1%, rgba(0, 0, 0, 0.021) 91%, rgba(0, 0, 0, 0.008) 95.2%, rgba(0, 0, 0, 0.002) 98.2%, transparent 100%)
+}
+
+.our-team img{
+    width: 100%;
+    height: 100%;
+    transition: var(--transition-regular);
+}
+
+.our-team:hover img{
+    transform: scale(1.1);
+}
+
+.our-team .section-item-curv,
+.our-team .section-item-curv i {
+    width: 60px !important;
+    height: 60px !important;
+    transition: var(--transition-regular);
+}
+
+
+.our-team:hover .section-item-curv i {
+    background-color: var(--prim-color);
+    color: var(--black-color);
+}
+
+.our-team-curv{
+    background-color: transparent;
+}
